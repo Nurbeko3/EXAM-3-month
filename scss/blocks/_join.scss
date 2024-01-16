@@ -1,0 +1,41 @@
+.join-section{
+    margin-top: 157px;
+}
+.join{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0px 0 0;
+    border-radius: 32px;
+    background-color: #02897A;
+}
+.join-content{
+    width: 510px;
+    padding: 49px 0 98px 51px;
+}
+.join-title{
+    color: #FFF;
+    padding-bottom: 96px;
+    font-family: Poppins,sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 151.4%; /* 48.448px */
+}
+.join-link{
+    color: #02897A;
+    padding: 13px 33px;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #FFF;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: all 0.5s ease;
+}
+.join-link:hover{
+    color: #FFF;
+    background: transparent;
+    border: 2px solid white;
+}

@@ -1,0 +1,66 @@
+.content-section{
+    margin-top: 150px;
+}
+.content-title{
+    color: #22343D;
+    font-family: Poppins , sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.content-text{
+    color: #22343D;
+    padding-bottom: 33px;
+    font-family: Poppins , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+.content{
+    display: flex;
+    padding-bottom: 64px;
+}
+.content-card + .content-card{
+    margin-left: 32px;
+}
+.content-card{
+    width: 350px;
+    border-radius: 8px;
+    background: #fff;
+    overflow: hidden;
+}
+.content__card-text{
+    color: #22343D;
+    padding: 24px 89px 12px 24px;
+    font-family: Poppins , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+.card-font-change{
+    color: #22343D;
+    font-family: Poppins , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+.content__card-title{
+    color: #22343D;
+    padding: 0 30px 40px 24px;
+    font-family: Poppins , sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 166.667% */
+    transition: 0.5s;
+}
+.content__card-title:hover{
+    color: #02897A;
+}
+.content-karusel{
+    margin-left: 517px;
+}
