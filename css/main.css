@@ -524,7 +524,7 @@ template {
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -633,7 +633,7 @@ template {
   margin-left: 33px;
 }
 
-@media (max-width: 910px) {
+@media (max-width: 768px) {
   .hero {
     flex-direction: column;
   }
@@ -737,7 +737,7 @@ template {
   border: 2px solid #02897A;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .product-section {
     padding-bottom: 90px;
     background-image: url(../images/product/Bg.png);
@@ -1092,7 +1092,7 @@ template {
   border: 2px solid #02897A;
 }
 
-@media (max-width: 910px) {
+@media (max-width: 768px) {
   .quick-people {
     flex-direction: column;
   }
@@ -1197,7 +1197,7 @@ template {
   margin-left: 517px;
 }
 
-@media (max-width: 910px) {
+@media (max-width: 768px) {
   .content__title-common {
     width: 100%;
     text-align: center;
@@ -1359,7 +1359,7 @@ template {
   background-color: #02897A;
 }
 
-@media (max-width: 910px) {
+@media (max-width: 768px) {
   .price-cards {
     flex-direction: column;
     margin-left: 220px;
@@ -1461,7 +1461,7 @@ template {
   letter-spacing: 0.2px;
 }
 
-@media (max-width: 910px) {
+@media (max-width: 768px) {
   .client-cards {
     flex-direction: column;
     margin-left: 220px;
@@ -1627,7 +1627,7 @@ template {
   line-height: 30px; /* 187.5% */
 }
 
-@media (max-width: 910px) {
+@media (max-width: 768px) {
   .footer {
     text-align: center;
     flex-direction: column;
