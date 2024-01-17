@@ -1,7 +1,22 @@
+.site-header{
+    padding: 20px 0;
+    position: fixed;
+    top: -1px;
+    right: 0;
+    left: 0;
+  
+    height: 80px;
+  
+    background-color: var(--white);
+    z-index: 10;
+    background: #fff;
+    box-shadow: 0px -2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
 .header{
     display: flex;
     align-items: center;
-    padding: 19px 0;
+   
 }
 .header-navbar{
     margin-left: 237px;
