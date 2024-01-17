@@ -64,3 +64,34 @@
 .content-karusel{
     margin-left: 517px;
 }
+@media (max-width:910px){
+    .content__title-common{
+        width: 100%;
+        text-align: center;
+    }
+    .content{
+        text-align: center;
+        flex-direction: column;
+        margin-left: 200px;
+        justify-content: center;
+    }
+    .content-card + .content-card{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .content-karusel{
+        margin-left: 330px;
+    }
+}
+@media (max-width:411px){
+    .content__title-common{
+        width: 100%;
+        text-align: center;
+    }
+    .content{
+        margin-left: 0;
+    }
+    .content-karusel{
+        margin-left: 100px;
+    }
+}

@@ -39,3 +39,8 @@
     background: transparent;
     border: 2px solid white;
 }
+@media (max-width:411px){
+    .join-img{
+        display: none;
+    }
+}

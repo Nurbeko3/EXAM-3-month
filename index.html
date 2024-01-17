@@ -35,8 +35,11 @@
                 </nav>
                 <a class="header__sign-in" href="#">Sign In</a>
                 <a class="header__sign-up" href="#">Sign Up</a>
-                <a href="">
+                <a href="#">
                     <img class="header-mode" src="./images/header/mode-icon.svg" alt="mode-icon.svg">
+                </a>
+                <a class="hamburger-menu" href="#">
+                    <img class="hamburger-img" src="./images/header/hamburger-menu.svg" alt="hamburger-menu">
                 </a>
             </div>
         </div>
@@ -254,8 +257,10 @@
                     
                     <section class="content-section">
                         <div class="container">
-                            <h2 class="content-title">Contents Strategies</h2>
-                            <p class="content-text">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
+                            <div class="content__title-common">
+                                <h2 class="content-title">Contents Strategies</h2>
+                                <p class="content-text">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
+                            </div>
                             <div class="content">
                                 <div class="content-card">
                                     <img class="content__first-img" srcset="./images/content/first_card-img.png , ./images/content/first_card-img@2x.png 2x" src="./images/content/first_card-img.png" alt="first card img">
@@ -415,14 +420,14 @@
                                                     <img class="footer-logo" src="./images/header/header-logo.svg" alt="footer logo">
                                                 </a>
                                                 <div class="social-icon-imgs">
-                                                    <a class="instagram-link" href="https://www.instagram.com/nurbek_saxophonist?igsh=MTlpYTl5bHlnMHU1Yw==">
-                                                        <img src="./images/footer/social instagram.svg" alt="social instagram">
+                                                    <a target="_blank" class="instagram-link" href="https://www.instagram.com/nurbek_saxophonist?igsh=MTlpYTl5bHlnMHU1Yw==">
+                                                        <img src="./images/footer/social instagram.svg" alt="social-instagram">
                                                     </a>
-                                                    <a class="facebook-link" href="#">
-                                                        <img src="./images/footer/social facebook.svg" alt=" social facebook">
+                                                    <a target="_blank" class="facebook-link" href="https://t.me/Aytilmagan_Gaplarim_0">
+                                                        <img src="./images/footer/social facebook.svg" alt=" social-facebook">
                                                     </a>
-                                                    <a class="twitter-link" href="#">
-                                                        <img src="./images/footer/social twitter.svg" alt=" social twitter">
+                                                    <a target="_blank" class="twitter-link" href="https://t.me/Miracl_N1">
+                                                        <img src="./images/footer/social twitter.svg" alt=" social-twitter">
                                                     </a>
                                                 </div>
                                             </div>
@@ -465,7 +470,7 @@
                                                 <form class="footer-form" action="https://echo.htmlacademy.ru" method="post">
                                                     <input type="email" autocomplete="on" name="user-email" required>
                                                 </form>
-                                                <a class="footer__form-link" href="#">Sign up Now</a>
+                                                <button type="submit" class="footer__form-link">Sign up Now</button>
                                             </div>
                                         </div>
                                         <p class="footer__last-text">Made With Love By Figmaland All Right Reserved </p>

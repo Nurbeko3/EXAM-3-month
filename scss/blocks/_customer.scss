@@ -31,3 +31,22 @@
     font-weight: 400;
     line-height: 26px; /* 162.5% */
 }
+@media (max-width:768px){
+    .customer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .customer-content{
+        margin-left: 220px;
+        padding-bottom: 40px;
+    }
+}
+@media (max-width:411px){
+    .customer{
+        flex-direction: column;
+    }
+    .customer-content{
+        margin-left: 0;
+        padding-bottom: 500px;
+    }
+}

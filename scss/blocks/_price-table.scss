@@ -117,3 +117,21 @@
     border-radius: 8px;
     background-color: #02897A;
 }
+@media (max-width:910px){
+    .price-cards{
+        flex-direction: column;
+        margin-left: 220px;
+    }
+    .price-free{
+        text-align: center;
+    }
+    .price-free + .price-free {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+}
+@media (max-width:411px){
+    .price-cards{
+        margin-left: 0;
+    }
+}

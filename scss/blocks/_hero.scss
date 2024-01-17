@@ -66,3 +66,28 @@
 .hero-img{
     margin-left: 33px;
 }
+@media (max-width:910px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero-content{
+        margin-left: 200px;
+        padding-bottom: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media (max-width:411px){
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .hero-content{
+        margin-left: 100px;
+        margin-top: 0;
+    }
+    .hero-img{
+        width: 338px;
+        height: 310px;
+        margin-left: 150px;
+    }
+}

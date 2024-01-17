@@ -26,3 +26,18 @@
 .collobrative-img{
     margin-left: 84px;
 }
+@media (max-width:768px){
+    .collobarive{
+        flex-direction: column;
+    }
+    .collobarive-content{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+}
+@media (max-width:411px){
+    .collobarive{
+    flex-direction: column;
+    }
+}
