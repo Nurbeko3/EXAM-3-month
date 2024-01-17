@@ -559,11 +559,11 @@ template {
 }
 @media (max-width: 411px) {
   .header {
+    width: 100%;
     justify-content: space-between;
   }
   .hamburger-menu {
     display: block;
-    margin-left: 400px;
   }
 }
 .hero-section {
@@ -873,6 +873,9 @@ template {
   .managment {
     flex-direction: column;
   }
+  .managment-title {
+    padding-bottom: 0px;
+  }
   .managment-content {
     width: 100%;
     text-align: center;
@@ -885,7 +888,7 @@ template {
 }
 @media (max-width: 411px) {
   .managment {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .managment-content {
     width: 100%;
@@ -938,7 +941,7 @@ template {
   }
   .customer-content {
     margin-left: 220px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
   }
 }
 @media (max-width: 411px) {
@@ -995,7 +998,8 @@ template {
 }
 @media (max-width: 411px) {
   .collobarive {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-top: 0;
   }
 }
 .quick-section {

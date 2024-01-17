@@ -52,6 +52,9 @@
     .managment{
         flex-direction: column;
     }
+    .managment-title{
+        padding-bottom: 0px;
+    }
     .managment-content{
         width: 100%;
         text-align: center;
@@ -64,7 +67,7 @@
 }
 @media (max-width:411px){
     .managment{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .managment-content{
         width: 100%;
