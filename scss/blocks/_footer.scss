@@ -46,6 +46,9 @@
     line-height: 30px; /* 150% */
 }
 .footer-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
     padding-bottom: 30px;
 }
 .footer-form > input{
