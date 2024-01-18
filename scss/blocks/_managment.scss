@@ -67,7 +67,10 @@
 }
 @media (max-width:411px){
     .managment{
+        width: 100%;
+        text-align: center;
         flex-direction: column-reverse;
+        justify-content: center;
     }
     .managment-content{
         width: 100%;
